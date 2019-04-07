@@ -58,3 +58,9 @@
 | LSML |           |           |           |        |
 | SDML |           |           |           |        |
 | RCA  |           |           |           |        |
+
+- None（distance=euclidean，neighbors=50）结果为86.45，neighbors可以考虑先用gridsearch，针对每种距离选取一个最好的neighbors的取值，然后所有的度量学习方法在过KNN的时候都使用这个值，如果有时间的话再做它对acc的影响的实验
+
+| LMNN |           |           |           |        |neighbors
+| LMNN |           |           |           |        |
+| LMNN |           |           |           |        |
