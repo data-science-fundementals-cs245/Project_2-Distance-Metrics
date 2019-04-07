@@ -12,7 +12,7 @@
   - 注意参考文献和引用
 
 # 参数说明：
-- 需安装包metric_learn
+- 需安装包metric_learn，API地址：http://metric-learn.github.io/metric-learn/metric_learn.rca.html
 - mltype：选择的metric learn
   - None: 不使用任何metric learn
   - MMC: Mahalanobis Metric for Clustering 
