@@ -15,7 +15,7 @@
 - 需安装包metric_learn，API地址：http://metric-learn.github.io/metric-learn/metric_learn.rca.html
 - mltype：选择的metric learn
   - None: 不使用任何metric learn
-  - MMC: Mahalanobis Metric for Clustering 
+  - MMC: Mahalanobis Metric for Clustering
   - LMNN: Large Margin Nearest Neighbor
   - NCA: Neighborhood Components Analysis
   - LFDA: Local Fisher Discriminant Analysis
@@ -61,7 +61,7 @@
 
 - None（distance=euclidean，neighbors=50）结果为86.45，neighbors可以考虑先用gridsearch，针对每种距离选取一个最好的neighbors的取值，然后所有的度量学习方法在过KNN的时候都使用这个值，如果有时间的话再做它对acc的影响的实验
 
-###Results: Li Dongyue 
+###Results: Li Dongyue
 
 ####None
 
@@ -86,4 +86,3 @@
 |               |                    |                    |                    |                    |
 |               |                    |                    |                    |                    |
 |               |                    |                    |                    |                    |
-
