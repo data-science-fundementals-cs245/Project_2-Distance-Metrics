@@ -18,7 +18,7 @@ import pickle                  # OPTIONAL, if not needed, ignore it
 from sklearn.model_selection import train_test_split
 ROOT = os.path.abspath(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))) #CodeFramework替换成项目名
 
-DATAROOT = os.path.join(ROOT, 'data', 'Animals_with_Attributes2-2', 'Features', 'ResNet101')#dataset替换成数据集名称
+DATAROOT =  "./data/Animals_with_Attributes2/Features/ResNet101"# os.path.join(ROOT, 'data', 'Animals_with_Attributes2', 'Features', 'ResNet101')#dataset替换成数据集名称
 
 
 
