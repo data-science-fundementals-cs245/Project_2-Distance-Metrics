@@ -48,11 +48,11 @@
 
 |      | euclidean | manhattan | chebyshev | cosine |
 |-|-|-|-|-|
-| None |           |           |           |        |
+| None |   88.94   |   88.08   |   78.50   |  89.84 |
 | MMC  |           |           |           |        |
 | LMNN |           |           |           |        |
-| NCA  |           |           |           |        |
-| LFDA |           |           |           |        |
+| NCA  |    -      |    -      |    -      |   -    |
+| LFDA |           |           |           |  89.74 |
 | MLKR |           |           |           |        |
 | ITML |           |           |           |        |
 | LSML |           |           |           |        |
