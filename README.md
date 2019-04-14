@@ -49,7 +49,7 @@
 |      | euclidean | manhattan | chebyshev | cosine |
 |-|-|-|-|-|
 | None |   88.94   |   88.08   |   78.50   |  89.84 |
-| MMC  |           |           |           |        |
+| MMC  |    -      |    -      |    -      |   -    |
 | LMNN |           |           |   76.22   |        |
 | NCA  |    -      |    -      |    -      |   -    |
 | LFDA |   84.60   |   64.49   |   89.99   |  89.74 |
