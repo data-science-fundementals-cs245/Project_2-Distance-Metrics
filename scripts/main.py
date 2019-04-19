@@ -16,8 +16,8 @@ from utils.util import MLearner
 #################################################################################################
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--mltype', type=str, default='None', help='metric learn type')
-parser.add_argument('--distance', type=str, default='cosine', help='distance type for KNN')
+parser.add_argument('--mltype', type=str, default='MMC', help='metric learn type')
+parser.add_argument('--distance', type=str, default='euclidean', help='distance type for KNN')
 parser.add_argument('--neighbors', type=int, default=5, help='number of neighbors for KNN')
 
 # model paras
